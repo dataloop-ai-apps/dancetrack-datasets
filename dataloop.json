@@ -75,7 +75,7 @@
     ],
     "datasets": [
       {
-        "name": "Driving Videos Dataset",
+        "name": "DanceTrack",
         "docs": "https://sites.google.com/view/dancetrackmot",
         "source": "https://sites.google.com/view/dancetrackmot",
         "invoke": {
