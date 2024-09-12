@@ -9,7 +9,7 @@ import logging
 import dtlpy as dl
 import pandas as pd
 
-logger = logging.getLogger(name='[Google] DanceTrack')
+logger = logging.getLogger(name='DanceTrack')
 
 
 class DanceTrack(dl.BaseServiceRunner):
@@ -18,7 +18,7 @@ class DanceTrack(dl.BaseServiceRunner):
         self.tmp_path = os.getcwd()
 
     def upload_dataset(self, dataset: dl.Dataset, source: str, progress: dl.Progress = None):
-        data_url = 'TODO'
+        data_url = 'https://storage.googleapis.com/model-mgmt-snapshots/datasets-dancetrack/DanceTrack.zip'
         with tempfile.TemporaryDirectory() as temp_dir:
             if progress:
                 progress.update(message="Preparing data")
