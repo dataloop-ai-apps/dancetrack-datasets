@@ -18,3 +18,13 @@ def images_to_video(image_folder, output_path, fps=20):
 
     # Write the output video file in WebM format
     clip.write_videofile(output_path, codec="libvpx-vp9")
+
+
+def merge_folder_images(download_path):
+    # Convert images to videos
+    folders = os.listdir(download_path)
+    for folder in folders:
+        print(f"Converting images in folder: {folder}")
+        image_folder = os.path.join(download_path, folder, "img1")
+        output_path = f"{folder}.webm"
+        images_to_video(image_folder, output_path)
