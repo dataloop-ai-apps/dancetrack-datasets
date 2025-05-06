@@ -14,7 +14,6 @@ logger = logging.getLogger(name='DanceTrack')
 
 class DanceTrack(dl.BaseServiceRunner):
     def __init__(self):
-        dl.use_attributes_2(state=True)
         self.tmp_path = os.getcwd()
 
     def upload_dataset(self, dataset: dl.Dataset, source: str, progress: dl.Progress = None):
