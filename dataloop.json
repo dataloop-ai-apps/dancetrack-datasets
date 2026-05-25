@@ -3,11 +3,11 @@
   "name": "dance-track",
   "description": "A general videos dataset to get you familiarized with Dataloop's powerful studios",
   "scope": "project",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "codebase": {
     "type": "git",
     "gitUrl": "https://github.com/dataloop-ai-apps/dancetrack-datasets",
-    "gitTag": "0.0.6"
+    "gitTag": "0.0.7"
   },
   "attributes": {
     "Category": "Dataset",
