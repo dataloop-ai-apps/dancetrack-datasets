@@ -1,7 +1,7 @@
 {
   "displayName": "DanceTrack",
   "name": "dance-track",
-  "description": "A general videos dataset to get you familiarized with Dataloop's powerful studios",
+  "description": "A general videos dataset to get you familiarized with DDOE's powerful studios",
   "scope": "project",
   "version": "0.0.7",
   "codebase": {
@@ -11,8 +11,8 @@
   },
   "attributes": {
     "Category": "Dataset",
-    "Hub": "Dataloop",
-    "Provider": "Dataloop",
+    "Hub": "DDOE",
+    "Provider": "DDOE",
     "Media Type": "Video",
     "License": "MIT License",
     "Annotation Type": ["Bounding Box"]
@@ -46,7 +46,7 @@
         "name": "dataset-adapter",
         "entryPoint": "dataset_loader.py",
         "className": "DanceTrack",
-        "description": "Dataset adapter for Dataloop Example",
+        "description": "Dataset adapter for DDOE Example",
         "initInputs": [],
         "functions": [
           {
@@ -55,7 +55,7 @@
               {
                 "type": "Dataset",
                 "name": "dataset",
-                "description": "Dataloop Dataset Entity"
+                "description": "DDOE Dataset Entity"
               },
               {
                 "type": "String",
@@ -66,7 +66,7 @@
             "output": [],
             "displayName": "upload_dataset",
             "displayIcon": "",
-            "description": "function to upload dataset to Dataloop"
+            "description": "function to upload dataset to DDOE"
           }
         ]
       }
