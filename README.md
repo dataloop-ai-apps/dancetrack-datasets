@@ -1,7 +1,7 @@
 # Dataset adapter for DanceTrack
 
 This dataset adapter is designed to facilitate the transformation of the [DanceTrack](https://sites.google.com/view/dancetrackmot)
-dataset from zip into a format compatible with Dataloop platform.\
+dataset from zip into a format compatible with DDOE platform.\
 The adapter simplifies the process of importing and preparing the dataset for various deep learning tasks.
 
 
